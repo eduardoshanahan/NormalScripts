@@ -7,6 +7,8 @@ To get started, call in a terminal:
 
 ```bash
 wget https://raw.github.com/eduardoshanahan/NormalScripts/master/GetUbuntuUsualSuspects.sh
+chmod +w GetUbuntuUsualSuspects.sh
+sudo ./GetUbuntuUsualSuspects.sh
 ```
 
 and you have Git to work from there.
