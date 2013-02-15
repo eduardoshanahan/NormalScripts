@@ -8,6 +8,10 @@ apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 if [ ! -e /etc/apt/sources.list.d/10gen.list ¦¦ ! -s /etc/apt/sources.list.d/10gen.list]; then
 	echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" >> /etc/apt/sources.list.d/10gen.list
 fi
+wget http://apt.mucommander.com/apt.key
+apt-key add apt.key
+rm apt.key
+echo "deb http://apt.mucommander.com stable main non-free contrib" >> /etc/apt/sources.list
 
 echo 'Get ready'
 apt-get -y update
@@ -20,6 +24,9 @@ apt-get -y install synapse
 
 echo 'Install Woof'
 apt-get -y install woof
+
+echo 'Install MuCommander'
+apt-get -y install mucommander
 
 echo 'Install Chromium'
 apt-get -y install chromium-browser
