@@ -2,8 +2,7 @@
 
 echo 'Get keys'
 add-apt-repository -y ppa:a-v-shkop/chromium
-add-apt-repository -y ppa:webupd8team/sublime-text-2
-add-apt-repository -y ppa:chris-lea/node.js  
+add-apt-repository -y ppa:webupd8team/sublime-text-2 
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 if [ ! -e /etc/apt/sources.list.d/10gen.list ¦¦ ! -s /etc/apt/sources.list.d/10gen.list]; then
 	echo "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen" >> /etc/apt/sources.list.d/10gen.list
@@ -30,9 +29,6 @@ apt-get -y install mucommander
 
 echo 'Install Chromium'
 apt-get -y install chromium-browser
-
-echo 'Install Node'
-apt-get -y install nodejs
 
 echo 'Install Mongo'
 apt-get -y install mongodb-10gen
