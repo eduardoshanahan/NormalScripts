@@ -31,7 +31,7 @@ echo 'Install Chromium'
 apt-get -y install chromium-browser
 
 echo 'Install Mongo'
-echo apt-get -y install mongodb-10gen
+apt-get -y install mongodb-10gen
 
 echo 'Install Sublime'
 apt-get -y install sublime-text
