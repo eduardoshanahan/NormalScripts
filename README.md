@@ -12,3 +12,8 @@ sudo ./GetUbuntuUsualSuspects.sh
 ```
 
 and you have Git to work from there.
+
+# References #
+
+
+[Nice guest post by Adaptive Semantics guys on Daniel Tunelang's blog] (http://thenoisychannel.com/2009/10/01/guest-post-a-plan-for-abusiveness/)
