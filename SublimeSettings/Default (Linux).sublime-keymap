@@ -1,0 +1,4 @@
+[
+
+	{ "keys": ["alt-ctrl+shift+s"], "command": "save_all" }
+]
