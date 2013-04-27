@@ -1,6 +1,7 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-	"font_face": "Ubuntu-Mono",
-	"font_size": 14,
-	"translate_tabs_to_spaces": false
+	"font_face": "Ubuntu Mono",
+	"font_size": 16,
+	"translate_tabs_to_spaces": true,
+    "tabs_size": 4
 }
